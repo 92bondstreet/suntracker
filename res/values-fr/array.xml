@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_number_results">
+    	<item>10</item>
+    	<item>20</item>
+    	<item>50</item>
+    </string-array>
+     <string-array name="entryvalues_list_number_results">
+    	<item>10</item>
+    	<item>20</item>
+    	<item>50</item>
+    </string-array>
+    <string-array name="entries_list_temp_unit">
+    	<item>°C</item>
+    	<item>°F</item>
+    </string-array>
+     <string-array name="entryvalues_list_temp_unit">
+    	<item>c</item>
+    	<item>f</item>
+    </string-array>
+    <string-array name="entries_list_dist_unit">
+    	<item>kilomètres</item>
+    	<item>miles</item>
+    </string-array>
+     <string-array name="entryvalues_list_dist_unit">
+    	<item>km</item>
+    	<item>mi</item>
+    </string-array>
+    <string-array name="entries_list_pop">
+    	<item>Toutes les villes</item>
+    	<item>>500.000</item>
+    	<item>>100.000</item>
+    	<item>>50.000</item>
+    	<item>>10.000</item>
+    </string-array>
+     <string-array name="entryvalues_list_pop">
+    	<item>0</item>
+    	<item>500000</item>
+    	<item>100000</item>
+    	<item>50000</item>
+    	<item>10000</item>
+    </string-array>
+</resources>

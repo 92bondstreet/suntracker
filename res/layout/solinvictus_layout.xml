@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:id="@+id/solinvictus_layout"> 
+    <!-- LOCAL WEATHER INFORMATIONS -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sol_local_background"
+    android:background="@drawable/sol_local_background">
+	    <ImageView android:id="@+id/local_code_img"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		   	android:layout_gravity="center_vertical"
+		   	android:paddingLeft="10dp"
+		   	android:src="@android:drawable/ic_popup_sync"/>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	   		android:layout_gravity="center_vertical"
+	   		android:paddingLeft="10dp"
+	    	android:layout_weight="1">
+		    <TextView android:id="@+id/local_temperature"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:textSize="20dp"
+		        android:textColor="#ffffff"
+		        android:textStyle="bold"
+		        android:text="@string/sol_local_loading"/> 
+		    <TextView android:id="@+id/local_description"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:textColor="#ffffff"/> 
+    	</LinearLayout>	
+	</LinearLayout>
+    <!-- SEARCH CRITERIA INFORMATIONS -->
+    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"    		
+    		android:layout_weight="25"
+    		android:paddingLeft="20dp"
+	   		android:paddingRight="20dp"
+    		android:background="@drawable/sol_slider_background_theme">
+    		 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			 android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:layout_weight="1">
+    			<TextView 
+    			    android:id="@+id/sol_temp_text"
+	        		android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content"
+	        		android:layout_centerHorizontal="true"
+	        		android:textSize="15dp"
+	        		android:textColor="#ffffff"
+	        		android:textStyle="bold"	        			
+	        		android:text="@string/sol_temp_text"/> 
+	    		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    			android:orientation="horizontal"
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:layout_weight="1"
+	    			android:layout_centerInParent="true"
+	    			android:background="@drawable/sol_slider_temp">
+		    			<SeekBar android:id="@+id/sol_slider_temp" 
+		             	android:layout_width="wrap_content" 
+		                android:layout_height="wrap_content" 
+		                android:layout_gravity="center" 
+		                android:secondaryProgress="0" 
+		                android:max="50" 
+		                android:maxHeight="10dip"
+		                android:minWidth="220dip"/> 
+	    		</LinearLayout>
+	    	</RelativeLayout>   
+	    	 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:layout_weight="1"> 
+    			<TextView
+    				android:id="@+id/sol_dist_text" 
+	        		android:layout_width="wrap_content"
+	        		android:layout_height="wrap_content"
+	        		android:layout_centerHorizontal="true"
+	        		android:textSize="15dp"
+	        		android:textColor="#ffffff"
+	        		android:textStyle="bold"	        			
+	        		android:text="@string/sol_dist_text"/>			
+			   	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    			android:orientation="horizontal"
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:layout_weight="1"
+	    			android:layout_centerInParent="true"
+	    			android:background="@drawable/sol_slider_dist">
+		    			<SeekBar android:id="@+id/sol_slider_dist" 
+		             	android:layout_width="wrap_content" 
+		                android:layout_height="wrap_content" 
+		                android:layout_gravity="center" 
+		                android:secondaryProgress="0" 
+		                android:max="1999" 
+		                android:maxHeight="10dip"
+		                android:minWidth="220dip"/> 
+	    		</LinearLayout>   
+	    	</RelativeLayout>
+    	</LinearLayout> 
+
+    <!-- ACTION BUTTON -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="fill_parent"						
+		android:layout_width="fill_parent"
+		android:orientation="horizontal"				
+		android:layout_weight="70">
+		<Button android:id="@+id/sun_weather_tracker"					  		
+	  		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="75"			
+			android:background="@drawable/sol_sun_tracker"
+			android:textColor="#ffffff"
+			android:text="@string/sol_fine_weather">	 
+		</Button>
+		 <Button android:id="@+id/all_weather_tracker"					  		
+	  		android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="25"
+			android:background="@drawable/sol_all_tracker"
+			android:textColor="#ffffff"
+			android:text="@string/sol_all_weather">
+		 </Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is a primitive example showing the different types of preferences available. -->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+		
+		<PreferenceCategory
+            android:title="@string/pref_units">
+            <ListPreference
+                android:key="PREF_temp_unit"
+                android:title="@string/pref_temp_title"
+                android:summary="@string/pref_temp_summary"
+                android:entries="@array/entries_list_temp_unit"
+                android:entryValues="@array/entryvalues_list_temp_unit"
+                android:dialogTitle="@string/pref_temp_dialog" 
+                android:defaultValue="c"/>
+                
+                <ListPreference
+                android:key="PREF_dist_unit"
+                android:title="@string/pref_dist_title"
+                android:summary="@string/pref_dist_summary"
+                android:entries="@array/entries_list_dist_unit"
+                android:entryValues="@array/entryvalues_list_dist_unit"
+                android:dialogTitle="@string/pref_dist_dialog" 
+                android:defaultValue="km"/>
+         </PreferenceCategory>
+
+		<PreferenceCategory
+            android:title="@string/pref_results">
+            <ListPreference
+	                android:key="PREF_pop"
+	                android:title="@string/pref_pop_title"
+	                android:summary="@string/pref_pop_summary"
+	                android:entries="@array/entries_list_pop"
+	                android:entryValues="@array/entryvalues_list_pop"
+	                android:dialogTitle="@string/pref_pop_dialog" 
+	                android:defaultValue="50000"/>
+	        <ListPreference
+	                android:key="PREF_number_results"
+	                android:title="@string/pref_results_title"
+	                android:summary="@string/pref_results_summary"
+	                android:entries="@array/entries_list_number_results"
+	                android:entryValues="@array/entryvalues_list_number_results"
+	                android:dialogTitle="@string/pref_results_dialog" 
+	                android:defaultValue="20"/>
+	    </PreferenceCategory>
+</PreferenceScreen>

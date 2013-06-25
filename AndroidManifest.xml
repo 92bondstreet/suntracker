@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.sun.tracker"
+      android:versionCode="4"
+      android:versionName="1.1">
+	
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+    <uses-library android:name="com.google.android.maps" />
+    <activity 	android:label="@string/app_name" android:name=".tabhost.SolTabhost" android:screenOrientation="portrait"
+    			android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
+	<activity 	android:name="SolInvictus" android:screenOrientation="portrait" 
+				android:configChanges="keyboardHidden|orientation"></activity>
+    <activity 	android:name="SolCities" android:screenOrientation="portrait"
+    			android:configChanges="keyboardHidden|orientation"></activity>
+    <activity 	android:name="SolTop25" android:screenOrientation="portrait"
+    			android:configChanges="keyboardHidden|orientation"></activity>
+	<activity 	android:name="SolPreferenceActivity" android:screenOrientation="portrait"
+				android:configChanges="keyboardHidden|orientation"></activity>
+	<activity 	android:name="com.sun.tracker.SolMaps" android:screenOrientation="portrait"
+				android:configChanges="keyboardHidden|orientation"></activity>
+				
+	<service android:enabled="true" android:name="com.sun.tracker.TopCitiesService" />
+</application> 
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+	
+	<uses-sdk android:minSdkVersion="4"></uses-sdk>
+</manifest> 

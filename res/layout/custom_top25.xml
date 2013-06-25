@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"> 
+    <ImageView
+		android:id="@+id/TopCodeImg"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:padding="10dp"/> 
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:paddingLeft="5dp"
+	   	android:paddingRight="5dp"
+	    android:layout_weight="1">
+	    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:id="@+id/TopCityWeather"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stretchColumns="1"
+		    android:layout_weight="1">
+		     <TableRow>	    		
+	         	<TextView
+		        	android:id="@+id/TopCityName"
+		        	android:gravity="left"
+		        	android:layout_width="wrap_content"
+	         		android:layout_height="fill_parent"
+		            android:padding="3dip"
+		            android:textSize="20dp"
+	         		android:textColor="#ffffff"
+	         		android:textStyle="bold" />
+	         </TableRow>
+	     </TableLayout>
+	     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:layout_below="@id/TopCityWeather"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stretchColumns="1"
+		    android:layout_weight="1">
+	         <TableRow>
+	         	<TextView android:id="@+id/TopCityTemp"
+	    			android:gravity="left"	    		 	
+	         		android:layout_width="wrap_content"
+	         		android:layout_height="fill_parent"
+	         		android:padding="3dip"
+	         		android:textSize="20dp"
+	         		android:textColor="#ffffff"
+	         		android:textStyle="bold"/>		    	
+		        <TextView
+		            android:id="@+id/TopCityCountry"
+		            android:gravity="right"
+		            android:layout_width="wrap_content"
+	         		android:layout_height="fill_parent"
+		            android:textColor="#ffffff"
+		            android:padding="3dip" />
+		    </TableRow>
+		    <TableRow>		 
+		    	<TextView		        	
+		        	android:id="@+id/TopCityCode"
+		        	android:gravity="left"
+		        	android:layout_width="wrap_content"
+	         		android:layout_height="fill_parent"
+		        	android:textColor="#ffffff"
+		            android:padding="3dip" />       
+		         <TextView
+		        	android:id="@+id/TopCityContinent"
+		        	android:gravity="right"
+		        	android:layout_width="wrap_content"
+	         		android:layout_height="fill_parent"
+		        	android:textColor="#ffffff"
+		            android:padding="3dip" />
+		    </TableRow>
+		</TableLayout> 
+    </RelativeLayout> 
+</LinearLayout>

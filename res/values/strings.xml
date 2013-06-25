@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SolInvictus!</string>
+    <string name="app_name">SunTracker</string>
+    <string name="pref_units">Units</string>
+<string name="pref_temp_title">Temperature unit</string>
+<string name="pref_temp_summary">Please, select your temperature unit</string>
+<string name="pref_temp_dialog">Select the temperature unit:</string>
+<string name="pref_dist_title">Distance unit</string>
+<string name="pref_dist_summary">Please, select your distance unit</string>
+<string name="pref_dist_dialog">Select the distance unit:</string>
+<string name="pref_results">Results list</string>
+<string name="pref_results_title">Results number</string>
+<string name="pref_results_summary">Please, select the number of results to display</string>
+<string name="pref_results_dialog">Select the results number to display:</string>
+<string name="pref_pop_title">Cities population</string>
+<string name="pref_pop_summary">Please, select the min cities population to search request</string>
+<string name="pref_pop_dialog">Select the min cities population:</string>
+<string name="menu_options">Options</string>
+<string name="menu_about">About</string>
+<string name="alert_current_weather">Loading current weather...</string><string name="alert_current_location">Loading current location...</string>
+<string name="sol_local_loading">Loading...</string>
+<string name="alert_no_geo">Unable to locate. The network and/or gps are disabled. Please enable a source in settings parameters.</string>
+<string name="alert_no_geo_title">Network/GPS</string>
+<string name="alert_no_geo_button">Close application</string>
+<string name="alert_no_local_weather">Unable to get local weather.\nPlease check your network.</string>
+<string name="alert_no_local_weather_title">Network</string>
+<string name="alert_no_local_weather_button">Close application</string>
+<string name="alert_not_yet_results">Not yet results.\nLaunch before a fine weather searching a round you or consult the top 25 fine weather cities.</string>
+<string name="alert_no_results">No results.\nChange your distance/temperature criteria before your searching or consult the top 25 fine weather cities.</string>
+<string name="alert_no_internet">Unable to connect to Internet.\nPlease check your network.</string>
+<string name="alert_fine_weather">Loading fine weather, please wait for a few moments....</string>
+<string name="alert_all_weather">Loading all weather, please wait for a few moments....</string>
+<string name="alert_no_fine_weather">Unable to find fine weather.\nPlease check your network.</string>
+<string name="alert_decode_weather">Unable to read values.\nPlease check your network.</string>
+<string name="alert_decode_weather_title">Network</string>
+<string name="alert_decode_weather_button">Close application</string>
+<string name="slider_temp">Temperature:</string>
+<string name="slider_dist">Distance:</string>
+<string name="alert_download_weather">Unable to download values.\nPlease check your network.</string>
+<string name="alert_download_weather_title">Network</string>
+<string name="alert_download_weather_button">Close application</string>
+<string name="menu_quit">Quit</string>
+<string name="sol_fine_weather">Only Fine Weather</string>
+<string name="sol_all_weather">All Weather</string>
+<string name="tab_search">Search</string>
+<string name="tab_results">Results</string>
+<string name="tab_top">Top 25</string>
+<string name="tab_map">Map</string>
+<string name="about_version">1.0</string>
+<string name="about_ok">Ok</string>
+<string name="about_market">Market: full version</string>
+<string name="about_app">Thank you very much for downloading this full version!\n
+Your support are much appreciated\n\n
+To report bugs, submit requests or general feedback, please send email to:\n\n
+- developer: rebecca.solanas@gmail.com\n
+- designer: shamallowboy@hotmail.com\n\n
+Your feedback and/or contribution is greatly appreciated.</string>
+<string name="sol_find">Perfect temperature and maximal distance</string>
+<string name="menu_position">My location</string>
+<string name="menu_sort_temp">Sort by temperature</string>
+<string name="menu_sort_name">Sort by name</string>
+<string name="menu_sort_weather">Sort by weather</string>
+<string name="menu_sort_dist">Sort by distance</string>
+<string name="alert_not_yet_top25">Top 25 cities downloading, please wait...</string>
+<string name="alert_no_top25">Unable to download top 25 cities.\nPlease check your network.</string>
+<string name="menu_sort_country">Sort by country</string>
+<string name="menu_sort_continent">Sort by continent</string>
+<string name="message_free_top25">Discover, in the full version, the 25 most livable cities in the world to visit in real time.\nSun and beautiful weather await you.</string>
+<string name="message_free_map">Find in full version, all cities that match your weather criteria. You never lose track of the sun.</string><string name="yahoo_tornado">Tornado</string><string name="yahoo_tropical_storm">Tropical storm</string><string name="yahoo_hurricane">Hurricane</string><string name="yahoo_severe_thunderstorms">Severe thunderstorms</string><string name="yahoo_thunderstorms">Thunderstorms</string><string name="yahoo_mixed_rain_snow">Mixed rain and snow</string>
+<string name="yahoo_mixed_rain_sleet">Mixed rain and sleet</string>
+<string name="yahoo_mixed_snow_sleet">Mixed snow and sleet</string>
+<string name="yahoo_freezing_drizzle">Freezing drizzle</string>
+<string name="yahoo_drizzle">Drizzle</string>
+<string name="yahoo_freezing_rain">Freezing rain</string>
+<string name="yahoo_showers">Showers</string>
+<string name="yahoo_snow_flurries">Snow flurries</string>
+<string name="yahoo_light_snow_showers">Light snow showers</string>
+<string name="yahoo_blowing_snow">Blowing snow</string>
+<string name="yahoo_snow">Snow</string>
+<string name="yahoo_hail">Hail</string>
+<string name="yahoo_sleet">Sleet</string>
+<string name="yahoo_dust">Dust</string>
+<string name="yahoo_foggy">Foggy</string>
+<string name="yahoo_haze">Haze</string>
+<string name="yahoo_smoky">Smoky</string>
+<string name="yahoo_blustery">Blustery</string>
+<string name="yahoo_windy">Windy</string>
+<string name="yahoo_cold">Cold</string>
+<string name="yahoo_cloudy">Cloudy</string>
+<string name="yahoo_mostly_cloudy">Mostly cloudy</string>
+<string name="yahoo_partly_cloudy">Partly cloudy</string>
+<string name="yahoo_clear">Clear</string>
+<string name="yahoo_sunny">Sunny</string>
+<string name="yahoo_fair">Fair</string>
+<string name="yahoo_mixed_rain_hail">Mixed rain and hail</string>
+<string name="yahoo_hot">Hot</string>
+<string name="yahoo_isolated_thunderstorms">Isolated thunderstorms</string>
+<string name="yahoo_scattered_thunderstorms">Scattered thunderstorms</string>
+<string name="yahoo_heavy_snow">Heavy snow</string>
+<string name="yahoo_scattered_snow_showers">Scattered snow showers</string>
+<string name="yahoo_scattered_showers">Scattered showers</string>
+<string name="yahoo_thundershowers">Thundershowers</string>
+<string name="yahoo_snow_showers">Snow showers</string>
+<string name="yahoo_isolated_thundershowers">Isolated thundershowers</string>
+<string name="yahoo_not_available">Not available</string>
+<string name="yahoo_africa">Africa</string>
+<string name="yahoo_america">America</string>
+<string name="yahoo_europa">Europa</string>
+<string name="yahoo_asia">Asia</string>
+<string name="sol_temp_text">Ideal temperature</string>
+<string name="sol_dist_text">Maximum distance</string>
+<string name="alert_download">Loading cities, please wait for a few moments....</string>
+</resources>

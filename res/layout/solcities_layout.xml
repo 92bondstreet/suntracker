@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/solcities_layout"> 
+   	 <ListView
+        android:id="@+id/SolCities"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+    <TextView
+    	android:id="@+id/SolCitiesMessage"  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" 
+    	android:gravity="center_vertical|center_horizontal"
+    	android:text="@string/alert_not_yet_results"
+    	android:textSize="30dp"
+		android:textColor="#ffffff"
+		android:visibility="visible"
+		android:layout_weight="1"/>
+</LinearLayout>
